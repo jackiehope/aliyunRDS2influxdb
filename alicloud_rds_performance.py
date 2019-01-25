@@ -176,7 +176,7 @@ if __name__ == '__main__':
 
     #get all datapoints with specified key in timerange
     UTC_End = datetime.datetime.today() - datetime.timedelta(hours=8)
-    offset_m = 12 * 60
+    offset_m = 1 * 60
     UTC_Start = UTC_End - datetime.timedelta(minutes=offset_m)
     StartTime = datetime.datetime.strftime(UTC_Start, '%Y-%m-%dT%H:%MZ')
     EndTime = datetime.datetime.strftime(UTC_End, '%Y-%m-%dT%H:%MZ')
