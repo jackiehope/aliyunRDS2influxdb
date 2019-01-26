@@ -2,7 +2,7 @@ kind: pipeline
 name: default
 
 steps:
-- name: python test
+- name: python-test
   image: python:3
   commands:
     - pip install -r requirements.txt
