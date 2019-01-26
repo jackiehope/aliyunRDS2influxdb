@@ -135,6 +135,7 @@ def FormatAliyunDatapoints(aliyunDatapoints):
 
 #check influxdb connection
 def create_db():
+    #ci
     pass
 
 #write data in batch mode
