@@ -134,6 +134,8 @@ def FormatAliyunDatapoints(aliyunDatapoints):
 #add instanceId and instanceName, or maybe tags
 
 #check influxdb connection
+def create_db():
+    pass
 
 #write data in batch mode
 def influxdbWrite(url, data):
